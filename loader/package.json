@@ -1,0 +1,14 @@
+{
+  "name": "ahp",
+  "version": "1.0.0",
+  "description": "ahp-machine-website",
+  "main": "loading.js",
+  "scripts": {
+    "sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
