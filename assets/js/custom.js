@@ -63,8 +63,8 @@
     })
 
     $('.owl-portfolio').owlCarousel({
-        items:4,
-        loop:true,
+        // items:4,
+        loop:$( this ).find('.item').length > 1 ? true:false,
         dots: true,
         nav: true,
         autoplay: true,
